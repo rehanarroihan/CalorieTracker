@@ -1,5 +1,7 @@
 package com.plcoding.calorytracker.ui.theme
 
+import Dimensions
+import LocalSpacing
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
@@ -40,10 +42,12 @@ fun CaloryTrackerTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Com
     } else {
         LightColorPalette
     }
-    MaterialTheme(
-        colors = colors,
-        typography = Typography,
-        shapes = Shapes,
-        content = content
-    )
+    CompositionLocalProvider(LocalSpacing provides Dimensions()) {
+        MaterialTheme(
+            colors = colors,
+            typography = Typography,
+            shapes = Shapes,
+            content = content
+        )
+    }
 }
