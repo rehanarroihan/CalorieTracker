@@ -1,6 +1,5 @@
 package com.plcoding.onboarding_presentation.gender
 
-import LocalSpacing
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -23,6 +22,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.plcoding.core.R
 import com.plcoding.core.domain.model.Gender
 import com.plcoding.core.util.UiEvent
+import com.plcoding.core_ui.LocalSpacing
 import com.plcoding.onboarding_presentation.components.ActionButton
 import com.plcoding.onboarding_presentation.components.SelectableButton
 

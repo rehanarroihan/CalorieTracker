@@ -1,6 +1,5 @@
 package com.plcoding.onboarding_presentation.components
 
-import LocalSpacing
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -16,6 +15,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
+import com.plcoding.core_ui.LocalSpacing
 
 @Composable
 fun SelectableButton(

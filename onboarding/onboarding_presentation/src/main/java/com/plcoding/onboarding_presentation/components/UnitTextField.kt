@@ -1,6 +1,5 @@
 package com.plcoding.onboarding_presentation.components
 
-import LocalSpacing
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
@@ -16,6 +15,7 @@ import androidx.compose.ui.layout.LastBaseline
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.sp
+import com.plcoding.core_ui.LocalSpacing
 
 @Composable
 fun UnitTextField(

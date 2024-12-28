@@ -1,6 +1,5 @@
 package com.plcoding.onboarding_presentation.welcome
 
-import LocalSpacing
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -17,6 +16,7 @@ import androidx.compose.ui.text.style.TextAlign
 import com.plcoding.core.R
 import com.plcoding.core.navigation.Route
 import com.plcoding.core.util.UiEvent
+import com.plcoding.core_ui.LocalSpacing
 import com.plcoding.onboarding_presentation.components.ActionButton
 
 @Composable
