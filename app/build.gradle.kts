@@ -5,6 +5,10 @@ plugins {
     id("kotlin-kapt")
 }
 
+hilt {
+    enableAggregatingTask = false
+}
+
 android {
     namespace = "com.plcoding.calorytracker"
     compileSdk = ProjectConfig.compileSdk
