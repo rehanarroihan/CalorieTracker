@@ -30,7 +30,7 @@ class HeightViewModel @Inject constructor(
     val uiEvent = _uiEvent.receiveAsFlow()
 
     fun onHeightEnter(height: String) {
-        if(height.length <= 3) {
+        if (height.length <= 3) {
             this.height = filterOutDigits(height)
         }
     }
