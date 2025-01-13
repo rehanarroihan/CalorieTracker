@@ -9,6 +9,5 @@ import com.plcoding.tracker_data.local.entity.TrackedFoodEntity
     version = 1
 )
 abstract class TrackerDatabase: RoomDatabase() {
-
     abstract val dao: TrackerDao
 }
